@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 环境变量和密钥
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE / Mac
+.vscode/
+.idea/
+.DS_Store
+
+# 临时文件和日志
+*.log
+.cache/
+
+# 数据集、训练输出和模型权重（保留本地文件）
+/data/corpus.*
+/data/json/
+/weights/
+/run/
+*.pth
